@@ -1,0 +1,440 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1000px;
+}
+.header {
+    
+}
+.header-top {
+    background: #2c3942;
+     overflow: hidden;
+}
+.header-top ul {
+     padding-right: 78px;
+     float: right;
+    margin: 0;
+} 
+.header-top ul li {
+     font-size: 10px;
+     display: inline-block;
+     list-style: none;
+    color: #fff;
+    padding: 0 13px 0 3px;
+    border-right: 1px solid #fff;
+}
+.header-top ul li:nth-child(2) {
+    color: #989924;
+}
+.header-top ul li:nth-child(4) {
+    border-right: none;
+}
+        /* ========header main ======*/
+.container{
+    width: 1000px;
+     background: linear-gradient( to right bottom, #406784 52%, #406784 7%, #39464f 41%);
+    position: relative;
+}
+
+.header-main {
+   width: 850px;
+    margin: 0 auto;
+}
+.header-main::after {
+    content: '';
+    clear: both;
+    display: block;
+} 
+.logo {
+    width: 113px;
+   float: left;
+    padding: 10px 10px 0 0;
+}
+.logo img {
+    width: 112px;
+}
+.search-bar {
+   width: 455px;
+    float: left;
+    box-sizing: border-box;
+}
+.search-bar-area {
+    float: left;
+    width: 94%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    margin-top: 15px;
+}
+.search-bar-area::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.search-bar-area p {
+    display: inline;
+    font-size: 10px;
+    padding: 0 0 0 5px;
+}
+.search-bar-area p i{
+   padding-left: 10px 10px 10px 10px;
+}
+.search-bar-area  input{
+   border: none; 
+    padding: 8px 94px;
+}
+.search-bar  .fa-search {
+    margin-top: 15px;
+    padding: 8px 6px;
+    background: #2da5fb;
+    color: #fff;
+}
+/* =========header-main-right =======*/
+
+.header-main-right {
+    float: left;
+    width: 230px; 
+}
+
+header-main-right ul {
+    
+}
+.header-main-right ul li {
+   display: inline-block;
+    color: #fff;
+    font-size: 7px;
+    padding-right: 6px;
+    border-right: 1px solid #fff;
+}
+.header-main-right ul li:nth-child(4) {
+   background: #f5806c;
+    display: inline-block;
+    border-right: none;
+    padding:7px 7px;
+    box-sizing: border-box;
+}
+.header-main-right ul li:nth-child(4) i {
+   display: inline; 
+    padding: 0 2px;
+}
+.header-main-right ul li .fa {
+    display: block;
+    text-align:center;
+    margin-bottom: 2px
+}
+.header-buttom {
+    background: #39464f;
+}
+.header-buttom ul{
+    margin: 0 auto;
+    width: 850px;
+}
+.header-buttom ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    font-weight: normal;
+    font-size: 9px;
+    margin: 0 14px;
+    margin-bottom: 10px;
+}
+.header-buttom ul li h3 {
+    margin-bottom: 4px;
+}
+.header-buttom ul li:nth-child(1){
+    background: #f6816d;
+    padding: 0 5px;
+}
+.header-buttom ul li:nth-child(1) h3 {
+    display: inline-block;
+}
+.header-buttom ul li:nth-child(1) i {
+    margin-left: 10px;
+}
+.header-buttom ul li:nth-child(2) ,
+.header-buttom ul li:hover {
+    border-bottom: 5px solid #2da5fb;
+}
+.header-service {
+    
+}
+.header-service ul {
+   text-align: center;
+    margin: 0;
+}
+.header-service ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+.header-service ul li i {
+    float: left;
+    color: #2da5fb;
+    margin: 0 15px 0 0;
+    font-size: 20px;
+}
+.header-service ul li h4 {
+    margin: 0;
+    float: left;
+    font-size: 14px;
+}
+.header-service ul li p {
+    margin: 0;
+    font-size: 10px;
+}
+
+/* ============content area=====*/
+
+.content-area {
+    background: #e0e0e0;
+    padding-top: 18px;
+}
+.section-1 {
+    width: 835px;
+    margin: auto;
+    overflow: hidden;
+}
+.section-area-1-left {
+   width: 550px;
+    height: 260px;
+    float: left;
+    background: #fff;
+    margin-right: 25px;
+}
+.section-area-1-right {
+    width: 260px;
+    float: left;
+    background: #fff;
+    text-align: center;
+}
+.section-area-1-right h2 {
+    margin: 13px 0 0 0;
+    font-size: 17px;
+    color: #3799ff;
+}
+.section-area-1-right p {
+    margin: 0;
+    font-size: 6px;
+}
+.section-area-1-right ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.section-area-1-right ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+.number {
+    background: #eb5435;
+    padding: 0 2px;
+}
+.section-area-1-right img {
+    margin: 18px 0;
+}
+.about-mobile {
+    font-size: 11px !important;
+}
+.section-area-1-right .price {
+   margin: 11px 16px 11px 16px;
+    overflow: hidden;
+}
+.section-area-1-right .price p {
+    float: left; 
+    font-size: 10px;
+}
+.section-area-1-right .price p span {
+    text-decoration: line-through;
+}
+.price .new-price {
+    float: right !important;
+    font-size: 16px !important;
+    color:  #3799ff;
+}
+/*==================section 2==========*/
+
+.section-2 {
+    width: 835px;
+    margin: auto;
+}
+.section-2-area {
+ margin: 15px 0;
+    background: #fff;
+}
+.section-2-area h5 {
+    margin: 14px 15px 16px 15px;
+    font-size: 10px;
+    float: left;
+}
+.section-2-area ul {
+    list-style: none;
+}
+ .section-2-area ul li {
+    display: inline-block;
+    font-size: 8px;
+    margin: 14px 8px 16px 8px;
+}
+.section-3 {
+   
+}
+.section-3 .mobile {
+    width: 263px;
+    height: 225px;
+    display: inline-block;
+    margin-right: 19px;
+    background: #fff;
+}
+.mobile h2 {
+    margin: 18px 0px 18px 23px;
+    font-size: 22px;
+    color: #30a5eb;
+}
+.mobile img {
+    float: right;
+    margin-top: -43px;
+    margin-right: 15px;
+}
+.mobile ul {
+   list-style-type: none;
+    margin-left: 23px;
+    padding: 0px;
+}
+ .mobile .fa {
+    margin-right: 15px;
+    color: #30a5eb;
+}
+.mobile ul li {
+    font-size: 11px;
+    line-height: 20px;
+    
+}
+.section-3 .fashion {
+     width: 263px;
+     height: 225px;
+    display: inline-block;
+    margin-right: 19px;
+    background: linear-gradient(to top, #d6d5d3, #fff);
+}
+.fashion img {
+    float: right;
+}
+.fashion h2 {
+    display: inline-block;
+    margin: 18px 0px 18px 23px;
+    font-size: 19px;
+    color: #3d414a;
+    width: 167px;
+}
+.fashion ul {
+   list-style-type: none;
+    margin-left: 23px;
+    margin-top: 7px;
+    padding: 0px;
+}
+ .fashion .fa {
+    margin-right: 15px;
+    color: #30a5eb;
+}
+.fashion ul li {
+    font-size: 11px;
+    line-height: 20px;
+    
+}
+.section-3 .activewear {
+    width: 263px;
+     height: 225px;
+     display: inline-block;
+    background: #fb816a;
+}
+.activewear img {
+    float: right;
+}
+.activewear h2 {
+    display: inline-block;
+    margin: 11px 0px 18px 23px;
+    font-size: 19px;
+    word-spacing: 3px;
+    color: #f9ffff;
+    width: 115px;
+}
+.activewear ul {
+   list-style-type: none;
+    margin-left: 23px;
+    margin-top: 7px;
+    padding: 0px;
+}
+ .activewear .fa {
+    margin-right: 15px;
+    color: #fff;
+}
+.activewear ul li {
+    font-size: 11px;
+    line-height: 20px;
+    color: #fff;   
+}
+/* ========last section =========*/
+
+.section-4 {
+  
+}
+.section-4 h2 {
+    margin-bottom: 2px;
+    font-weight: 300;
+}
+.section-4 hr {
+    background: #2ca6fb;
+    height: 3px;
+    margin: 0;
+}
+.section-4 ul {
+    margin: 0;
+      height: 190px;
+    padding: 13px 35px;
+    background: #fff;
+}
+.section-4 ul li {
+    display: inline-block;
+    margin-right: 35px;
+    text-align: center;
+     width: 15%;
+}
+.section-4 ul li p {
+    margin: 0;
+    padding: 0;
+}
+.section-4 .review {
+    color: #f3c409;
+}
+.section-4 .machine {
+    
+}
+.section-4 .mobile-3 {
+    
+}
+.section-4 .microsd {
+    
+}
+.section-4 .memory {
+    
+}
+.section-4 .air-phone {
+    
+}
+.section-4 .name,
+.section-4 .class {
+    font-weight: 600;
+    font-size: 10px;
+}
+.section-4 .review {
+    color: #f3c409;
+}
+.section-4 .price {
+    font-size: 10px;
+    color: #a19f9f;
+}
+.section-4 .price span {
+    text-decoration: line-through;
+}
